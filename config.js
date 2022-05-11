@@ -26,7 +26,7 @@ hour: 'numeric',
 minute: 'numeric',
 second: 'numeric'
 })
-let wktu = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+let wktu = moment.tz('Asia/Kuala_Lumpur').format('HH:mm:ss')
 
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
@@ -34,9 +34,9 @@ function pickRandom(list) {
 
 
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
-global.linkGC = ['https://chat.whatsapp.com/BYcW7rue6fA8gNdyLPedDe'] // ganti jadi group lu
-global.owner = ['6288229683561', '6287708773367' ,'6285600204672','62831433937630','6285704954639', '62895336282144', '6285712420674'] // Put your number here
-global.mods = ['6288229683561'] // Want some help?
+global.linkGC = ['https://chat.whatsapp.com/JxEUwuRVx9qCPjLN5K8WoO'] // ganti jadi group lu
+global.owner = ['601140438510,60179596875,601158178235] // Put your number here
+global.mods = ['601140438510'] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -60,7 +60,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey' (apikey kalian)
   'https://api.xteam.xyz': 'APIKEY',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'APIKEY',
+  'https://api.lolhuman.xyz': '891c747917b366c6c2986ebb',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -73,12 +73,12 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '🌙 Lord вσт\nwa.me/6287708773367\n\n\n𝙱𝚢 Kurumi あ\n\n\nFollow IG: @lord_ammar_quoteser_\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.'
-global.author = '۰ ⸼'
+global.packname = '@AthipPunyaa'
+global.author = '601140438510'
 
 // silakan di ganti klo mau
-global.botwm = `🤖 Lord вσт`//UBAH JADI NAMAMU
-global.wm = `꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Kurumi - sama˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷`
+global.botwm = `KaizenBot`//UBAH JADI NAMAMU
+global.wm = `XD`
 global.botdate = `❏ ${wktu}\n❏ ${week} ${date}`
 global.imagebot = `https://telegra.ph/file/793b6accf3758f092742a.jpg`
 global.logo = fs.readFileSync('./src/logo3.jpg')
